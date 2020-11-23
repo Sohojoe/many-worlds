@@ -1,0 +1,18 @@
+{
+    "name": "JoeBooth.Many-Worlds",
+    "references": [
+        "Unity.ML-Agents"
+    ],
+    "optionalUnityReferences": [
+        
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+    ],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,16 @@
+{
+    "name": "JoeBooth.Many-Worlds.Editor",
+    "references": [
+        "JoeBooth.Many-Worlds"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
