@@ -25,7 +25,7 @@ mlagents-learn config.yaml --env="envs/ManyWorlds" --num-envs=10 --run-id=10x32w
 
 Open ```Packages.json``` and add:
 ``` bash
-    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git"
+    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds"
 ```
 
 2. 
