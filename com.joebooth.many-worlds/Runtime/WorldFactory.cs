@@ -30,13 +30,7 @@ namespace ManyWorlds
                 var envDef = Factory.spawnableEnvDefinitions.FirstOrDefault(x => x.envId == envId);
                 envIdIdex = Factory.spawnableEnvDefinitions.IndexOf(envDef);
             }
-            // exit if we should not dispplay the menu
-            if (ShouldInitalizeOnAwake())
-            {
-                var spawnPrefab = Factory.GetPrefabFor(GetEnvId());
-                Factory.SpawnSpawnableEnv(this.gameObject, GetNumEnvironments() ,spawnPrefab);
-                return;
-            }
+
             showPopUp = true;
         }
 
@@ -167,6 +161,8 @@ namespace ManyWorlds
             if (GUI.Button(new Rect(rect), "GO"))
                 Go();
             GUI.FocusControl(Factory.spawnableEnvDefinitions[envIdIdex].envId);
+            if (ShouldInitalizeOnAwake())
+                Go();            
         }
         void Go()
         {
