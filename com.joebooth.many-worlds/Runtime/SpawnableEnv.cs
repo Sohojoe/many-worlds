@@ -55,6 +55,10 @@ namespace ManyWorlds
         }
         public bool IsPointWithinBoundsInWorldSpace(Vector3 point)
         {
+            // lazy initialize the Bounds; handles case where Factory was not used
+            if (bounds.size == Vector3.zero)
+                UpdateBounds();
+
             var boundsInWorldSpace = new Bounds(
                 bounds.center + transform.position,
                 bounds.size
