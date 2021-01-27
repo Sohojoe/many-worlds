@@ -8,18 +8,19 @@ and this project adheres to
 
 ## [Unreleased]
 ### Major Changes
-#### com.joebooth.many-worlds (C#)
-#### ml-agents / ml-agents-envs / gym-unity (Python)
+#### ...
 
 ### Minor Changes
-#### com.unity.ml-agents / com.unity.ml-agents.extensions (C#)
-#### ml-agents / ml-agents-envs / gym-unity (Python)
+#### ...
 
 ### Bug Fixes
-#### com.unity.ml-agents (C#)
-#### ml-agents / ml-agents-envs / gym-unity (Python)
+#### ...
 
+## [1.0.1] - 2020-11-18
 
+### Bug Fixes
+#### add semantic version and create a git release
+#### fix: lazy initialize the Bounds; handles case where Factory was not used
 
 ## [1.0.0-preview] - 2020-11-18
 
