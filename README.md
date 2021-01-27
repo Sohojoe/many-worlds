@@ -19,13 +19,17 @@ Spawn 10 Unity training instances, each with 32 instances of the environment.
 mlagents-learn config.yaml --env="envs/ManyWorlds" --num-envs=10 --run-id=10x32worlds-001 --no-graphics --env-args --spawn-env=SingleWorld --num-spawn-envs=32
 ```
 
-## How to add to your ML-Agents
+## How to add to your ML-Agents project
 
-1. Reference Many-Worlds from your manifest
+In Unity, open the package manager->press the '+' button->Add package from git URL and add the following (using the version number of your choice):
 
-Open ```Packages.json``` and add:
 ``` bash
-    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds"
+    https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.1
 ```
 
-2. 
+
+Or, Open ```Packages.json``` and add the following (using the version number of your choice):
+``` bash
+    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.1"
+```
+
