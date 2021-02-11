@@ -16,6 +16,12 @@ and this project adheres to
 ### Bug Fixes
 #### ...
 
+## [1.0.2] - 2021-02-11
+
+### Bug Fixes
+#### fix: Ensures all child objects are active
+
+
 ## [1.0.1] - 2020-11-18
 
 ### Bug Fixes

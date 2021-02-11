@@ -24,12 +24,12 @@ mlagents-learn config.yaml --env="envs/ManyWorlds" --num-envs=10 --run-id=10x32w
 In Unity, open the package manager->press the '+' button->Add package from git URL and add the following (using the version number of your choice):
 
 ``` bash
-    https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.1
+    https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.2
 ```
 
 
 Or, Open ```Packages.json``` and add the following (using the version number of your choice):
 ``` bash
-    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.1"
+    "com.joebooth.many-worlds": "https://github.com/sohojoe/many-worlds.git?path=/com.joebooth.many-worlds#v1.0.2"
 ```
 
