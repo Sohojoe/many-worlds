@@ -16,6 +16,12 @@ and this project adheres to
 ### Bug Fixes
 #### ...
 
+## [1.0.3] - 2021-02-12
+
+### Bug Fixes
+#### revert fix: Ensures all child objects are active (caused issues)
+
+
 ## [1.0.2] - 2021-02-11
 
 ### Bug Fixes

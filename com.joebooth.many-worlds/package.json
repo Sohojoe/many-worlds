@@ -1,7 +1,7 @@
 {
     "name": "com.joebooth.many-worlds",
     "displayName": "Many-Worlds for ML Agents",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "unity": "2018.4",
     "description": "Speed up your training by spawning multiple instances of your ML-Agents environment per Unity instance.",
     "dependencies": {
