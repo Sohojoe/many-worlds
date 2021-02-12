@@ -25,18 +25,6 @@ namespace ManyWorlds
         Scene _spawnedScene;
         PhysicsScene _spawnedPhysicsScene;
 
-        void OnEnable()
-        {
-            foreach (Transform child in transform) {
-                child.gameObject.SetActive(true);
-
-
-            }
-        }
-
-
-
-
         private void FixedUpdate()
         {
             if (UseManyWorlds)
