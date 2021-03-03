@@ -16,6 +16,12 @@ and this project adheres to
 ### Bug Fixes
 #### ...
 
+## [1.1.0] - 2021-03-02
+
+### Minor Changes
+#### update ml-agents to 1.8.0-preview
+
+
 ## [1.0.3] - 2021-02-12
 
 ### Bug Fixes
